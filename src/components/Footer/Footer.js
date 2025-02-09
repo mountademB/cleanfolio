@@ -2,13 +2,9 @@ import './Footer.css'
 
 const Footer = () => (
   <footer className='footer'>
-    <a
-      href='https://github.com/rjshkhr/cleanfolio'
-      className='link footer__link'
-    >
-      Created By Raj Shekhar
-    </a>
+    {/* You can add any other footer content here if needed */}
   </footer>
 )
 
 export default Footer
+

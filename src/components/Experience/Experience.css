@@ -1,0 +1,37 @@
+.experience__grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  grid-gap: 2em;
+}
+
+.experience__item {
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+}
+
+.experience__item:hover {
+  transform: translateY(-7px);
+}
+
+.experience__company {
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.experience__role {
+  font-weight: 500;
+  margin-bottom: 0.5em;
+}
+
+.experience__date {
+  margin-bottom: 1em;
+}
+
+.experience__description {
+  font-size: 0.9em;
+}

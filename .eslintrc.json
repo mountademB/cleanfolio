@@ -4,9 +4,10 @@
     "es2021": true
   },
   "extends": [
+    "react-app",
+    "react-app/jest",
     "eslint:recommended",
     "plugin:react/recommended",
-    "airbnb",
     "prettier"
   ],
   "parserOptions": {
@@ -25,3 +26,4 @@
     "react/prop-types": "off"
   }
 }
+
